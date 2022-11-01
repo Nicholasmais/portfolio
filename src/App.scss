@@ -1,7 +1,9 @@
-@use "./styles/colors/_colors" as color; 
+@use "./styles/colors/_tokens" as tokens; 
 
 body {
-  background-color: color.$antiquetewhite;
-  color: color.$black;
+  overflow-x: hidden;
+  background-image: url("~/src/imgs/anete-lusina-zwsHjakE_iI-unsplash-modified.jpg");
+  background-size: contain;
+  color: tokens.$white;
 }
 
