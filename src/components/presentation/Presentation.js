@@ -4,7 +4,9 @@ import s from "./Presentation.module.scss"
 const Presentation = () => {
   return (
     <div className={s.main}>
-        Presentation
+        <h2>
+          Bem vindo
+        </h2>
     </div>
   )
 }

@@ -21,7 +21,9 @@ const Navigation = () => {
     <div className={s.container}>
       <ul>
         <div>
-          Nícholas Eras
+          <i>"First, solve the problem.</i>
+          <br/>
+          <i>Then write the code"</i>
         </div>
       </ul>
       <ul>

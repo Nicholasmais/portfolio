@@ -14,8 +14,11 @@
     & div{
       position: relative;
       top: 50%;
-      transform: translateY(-50%);
-      padding-left: tokens.$large-padding;
+      transform: translateY(-50%);      
+      text-align: center;
+      & i{
+        color: tokens.$white;        
+      }      
     }
   }
   & ul:nth-child(2){
@@ -30,9 +33,9 @@
       & a{
         text-decoration: none;
         color: tokens.$white;
+        transition: all .125s ease-in-out;
         &:hover{          
           transform: scale(1.25);
-          transition: all .125s;
         }
       }
     }

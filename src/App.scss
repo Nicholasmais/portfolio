@@ -3,7 +3,8 @@
 body {
   overflow-x: hidden;
   background-image: url("~/src/imgs/anete-lusina-zwsHjakE_iI-unsplash-modified.jpg");
-  background-size: contain;
-  color: tokens.$white;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-color: tokens.$black;
 }
 

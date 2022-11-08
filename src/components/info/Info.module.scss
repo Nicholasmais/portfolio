@@ -1,0 +1,9 @@
+@use "../../styles/colors/_tokens" as tokens; 
+
+.main{
+  color: tokens.$antiquetewhite;
+
+  & article{
+    text-indent: tokens.$medium-padding
+  }
+}
