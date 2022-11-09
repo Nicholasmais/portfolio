@@ -24,7 +24,16 @@ const Info = () => {
           "Next.js",
           "Node.js"          
         ]
-      }
+      },
+      {
+        name:"SQL",
+        img: "fas fa-server fa-2x",
+        text:
+          [
+            "MySQL",
+            "PostgreSQL"                     
+          ]
+        }
    ];
   return (
     <div className={s.main}>
