@@ -8,13 +8,14 @@ const Navigation = () => {
   const location = useLocation();
   const [current, setCurrent] = useState(location.pathname.slice(1));
   const routes = [
-    {route:"home", name:"Home"},
+    {route:"", name:"Home"},
     {route:"projects",name:"Projects"},
     {route:"contact",name:"Contact"}
   ]
 
   useEffect(()=>{
     setCurrent(location.pathname.slice(1));
+    console.log(current);
   },[location])
 
   return (

@@ -2,8 +2,15 @@
 
 .main{
   color: tokens.$antiquetewhite;
-
   & article{
     text-indent: tokens.$medium-padding
+  }
+  & section{
+    display: grid;
+    gap: tokens.$small-padding;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    padding: tokens.$small-padding;
   }
 }
