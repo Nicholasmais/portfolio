@@ -1,12 +1,13 @@
 import React from 'react'
 import s from "./Footer.module.scss"
-
 const Footer = () => {
-  return (
+  return (    
     <div className={s.container}>
-      Linkedin
-      Email
-      Lattes
+      <a href="https://www.linkedin.com/in/nicholas-eras/" target="blank" > <i class="fab fa-linkedin-in" ></i></a>
+      <a href="https://github.com/Nicholasmais" target="blank" > <i class="fab fa-github" ></i></a>
+      <div className={s.lt}>
+        <a href="http://lattes.cnpq.br/0252689841316986" target="blank" > <img src='lattes.png'/></a>      
+      </div>
     </div>
   )
 }
