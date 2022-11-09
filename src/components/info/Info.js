@@ -11,7 +11,7 @@ const Info = () => {
         "Flask",
         "Pandas",
         "Numpy",
-        "Scikit-Learn",
+        "Scikit-learn",
         "Matplotlib"
       ]
     },
