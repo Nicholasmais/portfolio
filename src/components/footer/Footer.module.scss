@@ -4,12 +4,8 @@
   bottom: 0;
   right: 0;
   height: calc(1.5 * tokens.$small-padding);
+  width: 3rem;
   padding-left: tokens.$small-padding;
   background-color: tokens.$white;
   border-top-left-radius: 25px;
-  & .lt{
-    display: block;
-    width: 200px;
-    height: 200px;
-  }
 }

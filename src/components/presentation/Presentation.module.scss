@@ -5,7 +5,7 @@
     height: calc(100vh - tokens.$large-padding);
     color: tokens.$white;
     & h2{
-      margin-left: tokens.$large-padding;
+      margin-left: calc(1.5*tokens.$medium-padding);
       margin-top:  tokens.$medium-padding;
       animation: left_to_right 1s ease;
     }
