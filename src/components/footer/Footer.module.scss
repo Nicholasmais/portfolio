@@ -1,5 +1,15 @@
+@use "../../styles/colors/tokens" as tokens;
 .container{
   position: fixed;
   bottom: 0;
-  background-color: aliceblue;
+  right: 0;
+  height: calc(1.5 * tokens.$small-padding);
+  padding-left: tokens.$small-padding;
+  background-color: azure;
+  border-top-left-radius: 25px;
+  & .lt{
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
 }
