@@ -22,9 +22,9 @@ const Navigation = () => {
     <div className={s.container}>
       <ul>
         <div>
-          <i>"First, solve the problem.</i>
+          <i>"First, solve the problem,</i>
           <br/>
-          <i>Then write the code"</i>
+          <i>then write the code."</i>
         </div>
       </ul>
       <ul>
