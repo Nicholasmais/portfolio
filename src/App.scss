@@ -6,5 +6,9 @@ body {
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-color: tokens.$black;
+  & section{
+    margin: 0 auto;
+    width: 75%;
+  }
 }
 

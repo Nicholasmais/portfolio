@@ -1,7 +1,7 @@
 @use "../../styles/colors/_tokens" as tokens; 
 
 .main{
-  color: tokens.$antiquetewhite;
+  color: tokens.$white;
   & article{
     text-indent: tokens.$medium-padding
   }
@@ -9,7 +9,7 @@
     display: grid;
     gap: tokens.$small-padding;
     grid-template-columns: 1fr 1fr;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: tokens.$small-padding;
   }

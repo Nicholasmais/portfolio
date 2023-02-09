@@ -1,0 +1,15 @@
+@use "../../styles/colors/tokens" as tokens;
+
+.main{
+  & header{
+    margin: 0 auto;
+    background-color: aliceblue;
+  }
+  & main{
+    .projectHeader{
+      display: flex;
+      gap: tokens.$small-medium-padding;
+      margin: 0 auto;
+    }
+  }
+}
