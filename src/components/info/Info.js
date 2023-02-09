@@ -53,8 +53,8 @@ const Info = () => {
       </article>
       <section>
         {skills.map((obj, i)=>(
-          <div className={`${s.i}`}>
-            <SkillsArrows skill={obj.name} img={obj.img} text={obj.text} key={i}/>
+          <div className={`${s.i}`} key={`div-${i}`}>
+            <SkillsArrows skill={obj.name} img={obj.img} text={obj.text} key={`skill-arrow-${i}`}/>
           </div>
         ))}
       </section>

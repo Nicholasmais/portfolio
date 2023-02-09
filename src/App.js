@@ -18,7 +18,7 @@ function App() {
       <section>
         <Info/>
       </section>
-      <div class={s.projects}>
+      <div className={s.projects}>
         <Projects/>
       </div>
       <footer>

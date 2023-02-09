@@ -9,11 +9,11 @@ const SkillsArrows = ({skill, img, text}) => {
       </div>
       <div className={s.card}>
         <div className={s.img}>
-          <i class={img}/>
+          <i className={img}/>
         </div>
         <div className={s.text}>
-          {text.map((obj)=>(
-            <div>{obj}</div>
+          {text.map((obj, i)=>(
+            <div key={`div-${i}`}>{obj}</div>
           ))}
         </div>
       </div>

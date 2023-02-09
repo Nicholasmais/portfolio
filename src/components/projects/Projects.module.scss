@@ -1,15 +1,27 @@
 @use "../../styles/colors/tokens" as tokens;
 
 .main{
+  width: 75%;
+  margin: 0 auto;
   & header{
     margin: 0 auto;
     background-color: aliceblue;
+    text-align: center;
   }
   & main{
     .projectHeader{
       display: flex;
       gap: tokens.$small-medium-padding;
       margin: 0 auto;
+      justify-content: center;
+    }
+    & .projectInfo{
+      align-items: center;
+      justify-content: center;
+      & img{
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
